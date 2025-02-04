@@ -1,0 +1,285 @@
+body {font-family: Arial, Helvetica, sans-serif;}
+* {box-sizing: border-box;}
+
+P{
+    font-size: 15px;
+}
+/*.navbarlink{
+
+    color:black; 
+    font-weight: bold;
+
+}*/
+.uppernavbar{
+    background-color:#063261;
+
+  color: #f2f2f2;
+  
+  padding-top: 14px;
+  padding-bottom: 14px;
+  padding-left: 1px;
+  text-decoration: none;
+  font-size: 17px;
+}
+.topnavicon{
+text-align: right;
+}
+.topnavicon>a{
+padding-right: 15px;
+padding-left: 15px;
+}
+
+.positionofbannerimg{
+ margin-top: 100px;
+}
+
+div.whatsnew{
+   background-color: rgba(0,0,0,0.1);
+  
+  height: 400px;
+  overflow: scroll;
+   text-align: justify;
+  text-justify: inter-word;
+}
+.whatsnew>ul{
+    padding-top: 50px;
+    padding-right: 30px;
+
+}
+.whatsnew>ul>li{
+    list-style-type: none;
+    padding-bottom: 20px;
+
+}
+.whatsnew>ul>li>a{
+    line-height: 180%;
+    color: #063261;
+
+
+    
+}
+.header_div_title{
+    text-align:center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: 35px;
+    font-weight: bold;
+    color: #708090;
+    text-shadow: 2px 2px rgba(0,0,0,0.2);
+
+
+}
+
+.flex-container {
+  display: flex;
+/*  justify-content: center;*/
+  flex-wrap: wrap;
+  
+}
+
+.flex-container > div {
+    border-radius: 10px;
+  background-color: white;
+  width: 29%;
+  margin: 22px;
+  text-align: center;
+  font-size: 30px;
+
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.coursehreader{
+/*    background-color:#063261; */
+background-color: #008080;
+    color:white; padding: 10px;
+    border-radius: 10px;
+}
+
+.flex-container-currentaffair{
+     display: flex;
+/*  justify-content: center;*/
+  flex-wrap: wrap;
+}
+
+.flex-container-currentaffair >div{
+
+    background-color: white;
+  width: 29%;
+  margin: 22px;
+  text-align: center;
+  font-size: 30px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+
+.coursehreader-currentaffair{
+
+    background-color: #006400;
+    color:white; padding: 10px;
+    border-radius: 10px;
+
+}
+
+.flex-container-testseries{
+    display: flex;
+/*  justify-content: center;*/
+  flex-wrap: wrap;
+}
+
+.flex-container-testseries >div{
+
+    background-color: white;
+  width: 29%;
+  margin: 22px;
+  text-align: center;
+  font-size: 30px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+
+.coursehreader-testseries{
+
+    background-color: #4B0082;
+    color:white; padding: 10px;
+    border-radius: 10px;
+
+}
+
+.resourse_flex_container{
+  display: flex;
+  flex-direction: row;
+/*  justify-content: center;*/
+  flex-wrap: wrap;
+}
+
+.resourse_flex_container > div{
+/* background-color: #f1f1f1;*/
+  width: 29%;
+  margin: 22px;
+  text-align: center;
+  font-size: 20px;
+}
+.ceoMSg{
+    line-height: 1.6;
+    color: #0000CD;
+    font-family: "Times New Roman", Times, serif;
+}
+.SignatureAmit{
+    text-align:right; 
+    font-family: Cursive;
+    font-size: 20px;
+    font-weight: bold;
+    color: red;
+}
+
+
+
+/*/*body {font-family: Arial, Helvetica, sans-serif;}
+* {box-sizing: border-box;}
+
+/* Full-width input fields */
+
+
+/* Set a style for all buttons */
+/*button {
+  background-color: #04AA6D;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+}
+
+button:hover {
+  opacity:1;
+}*/
+
+/* Extra styles for the cancel button */
+
+
+/* Change styles for cancel button and signup button on extra small screens */
+@media screen and (max-width: 300px) {
+  .cancelbtn, .signupbtn {
+     width: 100%;
+  }
+}
+
+@media screen and (max-width: 770px){
+    .uppernavbar{
+        text-align: center;
+    }
+    .topnavicon{
+
+        text-align: center;
+
+    }
+      .flex-container {
+    flex-direction: column;
+  }
+  .flex-container > div {
+  background-color: #f1f1f1;
+  width: 100%;
+  margin-top: 0px;
+  margin-bottom: 20px;
+  margin-left: 0px;
+  margin-right: 10px;
+
+}
+
+.flex-container-currentaffair{
+   flex-direction: column;
+}
+
+.flex-container-currentaffair >div{
+
+    background-color: white;
+  width: 100%;
+   margin-top: 0px;
+  margin-bottom: 20px;
+  margin-left: 0px;
+  margin-right: 10px;
+  
+
+}
+
+
+.flex-container-testseries{
+flex-direction: column;
+}
+
+.flex-container-testseries >div{
+
+    background-color: white;
+  width: 100%;
+   margin-top: 0px;
+  margin-bottom: 20px;
+  margin-left: 0px;
+  margin-right: 10px;
+
+}
+
+.resourse_flex_container{
+  
+  flex-direction: column;
+
+  
+}
+
+.resourse_flex_container > div{
+/* background-color: #f1f1f1;*/
+  background-color: white;
+  width: 100%;
+   margin-top: 0px;
+  margin-bottom: 20px;
+  margin-left: 0px;
+  margin-right: 10px;
+}
+
+
+
+}
+
+
+

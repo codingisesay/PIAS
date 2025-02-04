@@ -1,0 +1,44 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+h1 {
+    text-align: center;
+}
+
+.course-tests-list {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.test-item {
+    padding: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.test-item h3 {
+    margin: 0 0 10px;
+}
+
+.test-item p {
+    margin: 0;
+    color: #666;
+}
+
+.test-item .course-name {
+    font-weight: bold;
+    color: #333;
+}
